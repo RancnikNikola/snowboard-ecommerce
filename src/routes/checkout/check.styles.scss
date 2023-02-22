@@ -1,0 +1,64 @@
+.checkout-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1 1 0px;
+
+  .order-items {
+    flex: 1 1 0px;
+    margin: 20px;
+    align-self: flex-start;
+
+    .total {
+      margin: 0 auto;
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px 5px;
+    }
+    .total-shipping {
+      margin: 0 auto;
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px 5px;
+      border-bottom: 1px solid #000;
+    }
+  }
+
+  .payment-form {
+    flex: 1 1 0px;
+    margin: 20px;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+    padding: 20px;
+
+    h1 {
+      text-align: justify;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 25px;
+      padding: 20px 0px;
+    }
+
+    .message-support {
+      padding: 20px 0;
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+
+      h3 {
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+
+
+}
